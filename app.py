@@ -1,9 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/',methods=['GET','POST'])
+
+@app.route('/', methods=['GET', 'POST'])
 def home():
-  return 'Hello world\nMy name is Newton.\nA Ghanaian Computer Science Student.'
-
-
+    return render_template('index.html')

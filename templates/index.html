@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Newton's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Typography */
+    body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    /* Header */
+    header {
+        background: #f4f4f4;
+        padding: 1rem;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    header nav ul li {
+        margin-left: 1rem;
+    }
+    
+    /* Main */
+    main {
+        padding: 2rem;
+    }
+    
+    section {
+        margin-bottom: 2rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Footer */
+    footer {
+        background: #f4f4f4;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    /* Media queries */
+    @media screen and (max-width: 768px) {
+        header nav ul {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    </style>
+    
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Mr. Newton</h1>
+            <p>23-year-old Computer Science student from Ghana</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Add your projects here -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:eaidoo015@gmail.com">eaidoo015@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mr. Newton. All rights reserved.</p>
+    </footer>
+</body>
+</html>
